@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 70%;
     margin: auto;
@@ -57,6 +61,7 @@
 .box-top .infos {
     color: white;
     font-size: 14px;
+    font-weight: bold;
     position: absolute;
     left: 0;
     bottom: 20px;
