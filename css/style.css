@@ -1,5 +1,22 @@
+/* ***** common ***** */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* ***** main ***** */
+
+
+/* +++++ debug +++++ */
+
+.debug.container {
+    height: 800px;
+    background-color: lightgrey;
 }
