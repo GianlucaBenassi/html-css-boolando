@@ -7,16 +7,39 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 /* ***** main ***** */
 
+.box {
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
+}
+
+.box-bottom {
+    margin-top: 10px;
+}
 
 /* +++++ debug +++++ */
 
 .debug.container {
-    height: 800px;
+    height: 1000px;
     background-color: lightgrey;
+}
+
+.debug .box {
+    background-color: tomato;
+    height: 560px;
+}
+
+.debug .box-top {
+    background-color: blue;
+    height: 500px;
+}
+
+.debug .box-bottom {
+    background-color: yellow;
+    height: 50px;
 }
