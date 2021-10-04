@@ -18,6 +18,31 @@
     margin: 5px;
 }
 
+.box-top {
+    position: relative;
+}
+
+.box-top img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.img-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-top:hover .img-origin {
+    display: none;
+}
+
+.box-top:hover .img-hover {
+    display: inline-block;
+}
+
 .box-bottom {
     margin-top: 10px;
 }
