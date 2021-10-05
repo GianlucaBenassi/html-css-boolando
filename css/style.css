@@ -32,21 +32,15 @@ body {
 /* *** box top *** */
 
 .box-top {
-    height: 600px;
     position: relative;
 }
 
 .box-top img {
-    height: 600px;
     width: 100%;
-    object-fit: cover;
 }
 
 .img-hover {
     display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .box-top:hover .img-origin {
